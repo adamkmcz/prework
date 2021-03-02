@@ -14,3 +14,10 @@ foo = True
 bar = False
 check = foo == bar
 print(f'zmienna check ma wartosc {check}')
+
+add1 = 3
+add2 = 1.3
+
+result = add1 + add2
+
+print(result)
