@@ -9,3 +9,8 @@ print(f'Zmienna a ma wartość {a}')
 print(f'Zmienna b ma wartość {b}')
 print(f'Zmienna c ma wartość {c}')
 print(f'Zmienna d ma wartość {d}')
+
+foo = True
+bar = False
+check = foo == bar
+print(f'zmienna check ma wartosc {check}')
