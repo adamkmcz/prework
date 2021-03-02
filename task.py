@@ -21,3 +21,12 @@ add2 = 1.3
 result = add1 + add2
 
 print(result)
+
+a1 = 25
+a2 = 10
+
+sum_value = a1 + a2
+quotus = a1 / a2
+int_part = int(quotus)
+print(int_part)
+print(f'{a1}\n{a2}\n{sum_value}\n{quotus}\n{int_part}')
