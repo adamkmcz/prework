@@ -30,3 +30,12 @@ quotus = a1 / a2
 int_part = int(quotus)
 print(int_part)
 print(f'{a1}\n{a2}\n{sum_value}\n{quotus}\n{int_part}')
+
+animals = []
+
+animals.append('kot')
+print(animals)
+animals.append('panda')
+print(animals)
+animals.append('koń')
+print(animals)
