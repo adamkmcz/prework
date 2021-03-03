@@ -49,9 +49,14 @@ characters = ["Harry", "Ron", "Hermione"]
 print(characters[0])
 print(characters[-1])
 
-name = input('your name')
-surname = input('your surname')
-print(f'{name} {surname} jest programistą Pythona')
+# name = input('your name')
+# surname = input('your surname')
+# print(f'{name} {surname} jest programistą Pythona')
+
+list=['a','b','c','d','e']
+
+concat = ' '.join(list)
+print(concat)
 
 
 
