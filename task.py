@@ -58,5 +58,10 @@ list=['a','b','c','d','e']
 concat = ' '.join(list)
 print(concat)
 
+a = 17
+b = 4
+result = a % b
+print(result)
+
 
 
