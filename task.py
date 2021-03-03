@@ -1,3 +1,4 @@
+
 print("Mam na    imię <Adam>")
 
 a = 1
@@ -44,7 +45,13 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 print(numbers[-2])
 
 characters = ["Harry", "Ron", "Hermione"]
+
 print(characters[0])
 print(characters[-1])
+
+name = input('your name')
+surname = input('your surname')
+print(f'{name} {surname} jest programistą Pythona')
+
 
 
