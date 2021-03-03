@@ -82,4 +82,13 @@ print(f'Ojciec jest starszy od dziecka o {(child - father)} lat')
 result = round(11 / 7, 2)
 print(f' 11 : 7 = {result}')
 
+name = input('Podaj swoje imię:')
+print(name)
+rok_urodzenia = input('Podaj rok urodzenia')
+print(rok_urodzenia)
+year = rok_urodzenia
+age = 2021 - int(rok_urodzenia)
+print(f'Użytkownik {name} jest w wieku {age} lat')
+
+
 
