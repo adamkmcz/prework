@@ -79,4 +79,7 @@ father = 1974
 child = 2007
 print(f'Ojciec jest starszy od dziecka o {(child - father)} lat')
 
+result = round(11 / 7, 2)
+print(f' 11 : 7 = {result}')
+
 
