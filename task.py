@@ -63,5 +63,10 @@ b = 4
 result = a % b
 print(result)
 
+counter = 145
+counter += 1
+print(counter)
 
+counter -= 1
+print(counter)
 
