@@ -101,16 +101,27 @@
 # for items in counts:
 #     print(f'{items} : {base**items}')
 
-name = input('Podaje pierwsze imię')
-first_name = name
-last_name = input('Podaj drugie imię')
-second_name = last_name
-if first_name == last_name :
-    print('takie same')
+# name = input('Podaje pierwsze imię')
+# first_name = name
+# last_name = input('Podaj drugie imię')
+# second_name = last_name
+# if first_name == last_name :
+#     print('takie same')
+# else :
+#     print('Różne')
+
+
+
+
+
+a = input('Podaj a')
+b = input('Podaj b')
+letter_a = int(a)
+letter_b = int(b)
+if letter_a > letter_b :
+    print('a jest większe')
+elif letter_a < letter_b :
+    print('b jest większe')
 else :
-    print('Różne')
-
-
-
-
+    print('takie same')
 
