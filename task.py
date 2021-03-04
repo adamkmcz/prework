@@ -114,14 +114,24 @@
 
 
 
-a = input('Podaj a')
-b = input('Podaj b')
-letter_a = int(a)
-letter_b = int(b)
-if letter_a > letter_b :
-    print('a jest większe')
-elif letter_a < letter_b :
-    print('b jest większe')
-else :
-    print('takie same')
+# a = input('Podaj a')
+# b = input('Podaj b')
+# letter_a = int(a)
+# letter_b = int(b)
+# if letter_a > letter_b :
+#     print('a jest większe')
+# elif letter_a < letter_b :
+#     print('b jest większe')
+# else :
+#     print('takie same')
+
+count = input('podaj n')
+n = int(count)
+i = 0
+sums = 0
+while i <= n:
+    sums += i
+    i += 1
+    print(sums)
+
 
