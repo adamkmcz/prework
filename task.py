@@ -96,6 +96,10 @@ while i <= 10 :
     print(f'Jestem programistą Pythona')
     i += 1
 
+counts = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+base = 2
+for items in counts:
+    print(f'{items} : {base**items}')
 
 
 
