@@ -125,13 +125,18 @@
 # else :
 #     print('takie same')
 
-count = input('podaj n')
-n = int(count)
-i = 0
-sums = 0
-while i <= n:
-    sums += i
-    i += 1
-    print(sums)
+# count = input('podaj n')
+# n = int(count)
+# i = 0
+# sums = 0
+# while i <= n:
+#     sums += i
+#     i += 1
+#     print(sums)
+
+counts = [1, 2, 3, 4, 5, 6, 7, 8]
+for items in counts :
+       print(f'liczba: {items}')
+
 
 
